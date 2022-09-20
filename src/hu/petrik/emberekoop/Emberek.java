@@ -15,11 +15,6 @@ public class Emberek {
     public Emberek(Ember[] emberTomb) {
         this.emberek = new ArrayList<>();
         this.emberek.addAll(Arrays.asList(emberTomb));
-        /*
-        for (Ember e: emberTomb) {
-            this.emberek.add(e);
-        }
-         */
     }
 
     public Emberek(String fajlNev) throws IOException {
